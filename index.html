@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Steam Deals</title>
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand lg navbar-dark bg-dark" id="navbar">
+        <span class="navbar-brand">
+            <h1 id="logo">SD</h1>
+        </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aira-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarup">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item-active">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="#">Log In</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item nav-link" href="#">Register</a> 
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenu" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Currency
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navBarDropdownMenu">
+                        <a class="dropdown-item" href="#">CAD</a>
+                        <a class="dropdown-item" href="#">USD</a>
+                    </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search Titles" aria-lable="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+
+    <!-- Containers for Game Titles and Filter-->
+    <div class="menu clearfix">
+        <div class="deals_cards">
+        <!-- Cards for Game Titles-->
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card m-5 navbar-dark bg-dark" style="width: 20rem;">
+                    <img src="./images/mhw.jpg" class="card-img-top" alt="mhw" style="height: 18rem;">
+                    <div class="card-body">
+                    <h7 id="price-tag">$39.99</h6>
+                    <h6 class="card-title">Monster Hunter:World</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Link to Steam Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card m-5 navbar-dark bg-dark" style="width: 20rem;">
+                    <img src="./images/csgo.jpg" class="card-img-top" alt="csgo" style="height: 18rem;">
+                    <div class="card-body">
+                    <h7 id="price-tag">$14.99</h6>
+                    <h6 class="card-title">Counter Strike: Global Offensive</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Link to Steam Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card m-5 navbar-dark bg-dark" style="width: 20rem;">
+                    <img src="./images/561995-slay-the-spire-playstation-4-front-cover.jpg" class="card-img-top" alt="sts" style="height: 18rem;">
+                    <div class="card-body">
+                    <h7 id="price-tag">$29.99</h6>
+                    <h6 class="card-title">Slay the Spire</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Link to Steam Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mx-5 mb-5 navbar-dark bg-dark" style="width: 20rem;">
+                    <img src="./images/gtav.png" class="card-img-top" alt="gtav" style="height: 18rem;">
+                    <div class="card-body">
+                    <h7 id="price-tag">$59.99</h6>
+                    <h6 class="card-title">Grand Theft Auto V</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Link to Steam Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mx-5 mb-5 navbar-dark bg-dark" style="width: 20rem;">
+                    <img src="./images/maplestory.jpg" class="card-img-top" alt="ms" style="height: 18rem;">
+                    <div class="card-body">
+                    <h7 id="price-tag">$0.99</h6>
+                    <h6 class="card-title">Maplestory</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Link to Steam Store</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card mx-5 mb-5 navbar-dark bg-dark" style="width: 20rem;">
+                    <img src="./images/skyrim.png" class="card-img-top" alt="skyrim" style="height: 18rem;">
+                    <div class="card-body">
+                    <h7 id="price-tag">$39.99</h6>
+                    <h6 class="card-title">The Elder Scrolls V: Skyrim</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Link to Steam Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Filter -->
+        <div class="filter">
+            <ul></ul>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

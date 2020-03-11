@@ -1,0 +1,26 @@
+body{
+    background-color: #23272a;
+    color: #ffffff;
+}
+#logo{
+    font-size: 25px;
+    margin: 0;
+}
+.navbar{
+    color: #ffffff;
+}
+
+.menu{
+    border-bottom:1px solid;
+}
+
+.deals_cards{
+    width:80%;
+    float:left;
+}
+
+.filter{
+    width:20%;
+    float:right;
+    background-color: white;
+}
