@@ -29,8 +29,8 @@ last = int(steamFuncs.extract_last_page(soup))
 
 print("Getting Canadian game data.")
 steamFuncs.get_games(last, urlCAD, headerCAD, 5, "cad")
-print("Getting USA game data.")
-steamFuncs.get_games(last, urlUS, headerUS, 5, "usd")
+# print("Getting USA game data.")
+# steamFuncs.get_games(last, urlUS, headerUS, 5, "usd")
 #arrays
 # allInfoUS = []
 # allInfoCAD = []
